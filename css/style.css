@@ -2,6 +2,10 @@ html{
     font-family: 'PT Serif', serif;
 }
 
+h1{
+    font-size: px;
+}
+
 header{
     background: url("../img/pattern.png");
     background-repeat: repeat-x;
@@ -12,11 +16,16 @@ header{
 }
 .bottom-image{
     font-size: 10px;
+
+}
+
+span{
+    background-color: yellow;
 }
 
 .logo{
-    width: 80px;
-    height: 60px;
+    width: 120px;
+    height: 100px;
 }
 
 table{
@@ -26,7 +35,7 @@ table{
 }
 th{
     text-align: left;
-    text-color:white;
+    color:white;
     background-color: rgb(80, 166, 213);
     
 }
