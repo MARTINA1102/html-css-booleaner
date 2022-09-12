@@ -1,0 +1,36 @@
+html{
+    font-family: 'PT Serif', serif;
+}
+
+header{
+    background: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-color: lightskyblue;
+    background-position: center;
+
+    
+}
+
+.logo{
+    width: 80px;
+    height: 60px;
+}
+
+table{
+    width: 100%;
+
+}
+th{
+    text-align: left;
+    text-color:white;
+    background-color: rgb(80, 166, 213);
+}
+
+
+td{
+    width:20% ;
+
+}
+.color-skyblue{
+    background-color: skyblue;
+}
