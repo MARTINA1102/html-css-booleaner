@@ -12,6 +12,7 @@ header{
     background-repeat: repeat-x;
     background-color: rgb(86, 183, 244);
     background-position: top;
+    height:180px;
 
     
 }
@@ -33,11 +34,10 @@ header{
 
 
 .logo{
-    position:-ms-page;
-    padding-top: 50px;
-    padding-bottom: 0px;
-    width: 330px;
-    height: 300px;
+    position:relative;
+    padding-top: 5px;
+    width: 300px;
+    height: 280px;
 }
 
 .yellow{
