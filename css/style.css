@@ -1,42 +1,61 @@
 html{
     font-family: 'PT Serif', serif;
+    font-size: 20px;
 }
 
 h1{
-    font-size: px;
+    font-size: 50px;
 }
 
 header{
     background: url("../img/pattern.png");
     background-repeat: repeat-x;
-    background-color: lightskyblue;
-    background-position: center;
+    background-color: rgb(86, 183, 244);
+    background-position: top;
 
     
+}
+.blue-text{
+    color:skyblue;
 }
 .bottom-image{
     font-size: 10px;
-
 }
 
-span{
+
+.img-fst{
+    width: 50%; 
+}
+.img-snd{
+    width:1300px;
+    height:950px;
+}
+
+
+.logo{
+    position:-ms-page;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    width: 330px;
+    height: 300px;
+}
+
+.yellow{
     background-color: yellow;
 }
 
-.logo{
-    width: 120px;
-    height: 100px;
-}
 
 table{
     width: 100%;
-    
+    border-collapse: collapse;
 
 }
+
 th{
     text-align: left;
     color:white;
     background-color: rgb(80, 166, 213);
+
     
 }
 
@@ -44,7 +63,22 @@ th{
 td{
     width:20% ;
 
+
 }
 .color-skyblue{
     background-color: skyblue;
+    
+}
+
+.container{
+    position: relative;    
+    width: 100%; 
+}
+
+h2{
+position: absolute;
+color:white;         
+top: 0px; 
+left: 5px; 
+width: 100%; 
 }
