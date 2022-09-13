@@ -3,13 +3,16 @@ html{
     font-size: 20px;
 }
 
+body{
+    margin:0;
+}
+
 h1{
     font-size: 50px;
 }
 
 header{
     background: url("../img/pattern.png");
-    background-repeat: repeat-x;
     background-color: rgb(86, 183, 244);
     background-position: top;
     height:180px;
